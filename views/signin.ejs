@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Navigation Bar</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+2&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="/styles/styles.css">
+    <link rel="stylesheet" type="text/css" href="/styles/signin.css">
+</head>
+<body>
+	<nav class="navbar">
+		<div class="navdiv">
+			<div class="logo"><a href="#">Ridify</a> </div>
+			<div class="search-bar">
+				<input type="text" id="search-input" placeholder="Search...">
+				<button id="search-button">Search</button>
+			  </div>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Contact</a></li>
+				<button><a href="#">SignIn</a></button>
+				<button ><a href="#">SignUp</a></button>
+			</ul>
+		</div>
+	</nav>
+    <div class="wrapper">
+        <div class="title">
+           Login Form
+        </div>
+        <form action="#">
+           <div class="field">
+              <input type="text" required>
+              <label>Email Address</label>
+           </div>
+           <div class="field">
+              <input type="password" required>
+              <label>Password</label>
+           </div>
+           <div class="content">
+              <div class="checkbox">
+                 <input type="checkbox" id="remember-me">
+                 <label for="remember-me">Remember me</label>
+              </div>
+              <div class="pass-link">
+                 <a href="#">Forgot password?</a>
+              </div>
+           </div>
+           <div class="field">
+              <input type="submit" value="Login">
+           </div>
+           <div class="signup-link">
+              Not a member? <a href="#">Signup now</a>
+           </div>
+        </form>
+     </div>
+</body>
+</html>

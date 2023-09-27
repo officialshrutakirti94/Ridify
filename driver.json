@@ -1,0 +1,113 @@
+[
+    {
+      "id": 1,
+      "name": "Amit Singh",
+      "license_number": "IN-BD12345",
+      "bike_make": "Bajaj",
+      "bike_model": "Pulsar 150",
+      "bike_plate_number": "MH-02-AB-1234",
+      "phone": "+91 98765 43210",
+      "rating": 4.6,
+      "image_url": "https://imgd.aeplcdn.com/1280x720/n/cw/ec/114277/pulsar-150-right-front-three-quarter-7.png?isig=0"
+    },
+    {
+      "id": 2,
+      "name": "Sneha Sharma",
+      "license_number": "IN-BD67890",
+      "bike_make": "Hero",
+      "bike_model": "Passion Pro",
+      "bike_plate_number": "DL-02-XY-5678",
+      "phone": "+91 87654 32109",
+      "rating": 4.8,
+      "image_url": "https://cdni.autocarindia.com/utils/imageresizer.ashx?n=https://cms.haymarketindia.net/model/uploads/modelimages/Hero-MotoCorp-Passion-Pro-130120211539.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Rajesh Patel",
+      "license_number": "IN-BD23456",
+      "bike_make": "TVS",
+      "bike_model": "Apache RTR 160",
+      "bike_plate_number": "GJ-03-KL-9876",
+      "phone": "+91 76543 21098",
+      "rating": 4.4,
+      "image_url": "https://imgd.aeplcdn.com/1280x720/n/cw/ec/130211/apache-160-right-front-three-quarter-2.jpeg?isig=0"
+    },
+    {
+      "id": 4,
+      "name": "Kavita Verma",
+      "license_number": "IN-BD78901",
+      "bike_make": "Honda",
+      "bike_model": "CB Shine",
+      "bike_plate_number": "KA-04-PQ-5432",
+      "phone": "+91 65432 10987",
+      "rating": 4.7,
+      "image_url": "https://c.ndtvimg.com/2020-02/dbhrd4ng_2020-honda-shine_625x300_20_February_20.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Vishal Kapoor",
+      "license_number": "IN-BD54321",
+      "bike_make": "Suzuki",
+      "bike_model": "Access 125",
+      "bike_plate_number": "TN-05-CD-4321",
+      "phone": "+91 78901 23456",
+      "rating": 4.9,
+      "image_url": "https://5.imimg.com/data5/SELLER/Default/2021/5/HD/DS/GC/26617893/suzuki-gixxer-sf.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Neha Gupta",
+      "license_number": "IN-BD98765",
+      "bike_make": "Bajaj",
+      "bike_model": "Platina",
+      "bike_plate_number": "UP-06-EF-9876",
+      "phone": "+91 87654 32109",
+      "rating": 4.5,
+      "image_url": "https://5.imimg.com/data5/SELLER/Default/2022/2/LG/LT/HZ/16115534/bajaj-platina-125.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Rahul Sharma",
+      "license_number": "IN-BD24680",
+      "bike_make": "Hero",
+      "bike_model": "Glamour",
+      "bike_plate_number": "RJ-07-GH-2468",
+      "phone": "+91 76543 21098",
+      "rating": 4.8,
+      "image_url": "https://imgd.aeplcdn.com/1280x720/n/cw/ec/155941/hero-glamour-left-rear-three-quarter1.jpeg?isig=0"
+    },
+    {
+      "id": 8,
+      "name": "Priya Verma",
+      "license_number": "IN-BD13579",
+      "bike_make": "Honda",
+      "bike_model": "CBR 150R",
+      "bike_plate_number": "MP-08-IJ-1357",
+      "phone": "+91 65432 10987",
+      "rating": 4.6,
+      "image_url": "https://imgd.aeplcdn.com/0x0/bikewaleimg/ec/530/img/l/Honda-CBR150-R-Side-1474.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Ajay Kumar",
+      "license_number": "IN-BD56789",
+      "bike_make": "TVS",
+      "bike_model": "Jupiter",
+      "bike_plate_number": "KL-09-KL-5678",
+      "phone": "+91 98765 43210",
+      "rating": 4.3,
+      "image_url": "https://imgd.aeplcdn.com/1280x720/n/cw/ec/46749/jupiter-right-front-three-quarter-13.png?isig=0"
+    },
+    {
+      "id": 10,
+      "name": "Mala Devi",
+      "license_number": "IN-BD10101",
+      "bike_make": "Suzuki",
+      "bike_model": "Burgman Street",
+      "bike_plate_number": "TG-10-MN-1010",
+      "phone": "+91 87654 32109",
+      "rating": 4.7,
+      "image_url": "https://imgd.aeplcdn.com/1280x720/n/cw/ec/114923/burgman-street-125-right-front-three-quarter-7.png?isig=0"
+    }
+  ]
+  
