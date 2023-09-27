@@ -31,31 +31,33 @@
 			<ul>
 				<li><a href="#">Home</a></li>
 				<li><a href="#">About</a></li>
-				<li><a href="driver">Drivers</a></li>
+				<li><a href="#">Drivers</a></li>
 				<button><a href="#">SignIn</a></button>
 				<button ><a href="#">SignUp</a></button>
 			</ul>
 		</div>
 	</nav>
-	<div class="home_img">
-		<div class="home_txt">
-			<h1>India's lagest Bike Taxi Service</h1>
-			<p id="para">Ridify is India’s first and fastest-growing Bike taxi app with a whopping 25 Million+ app downloads. We are now running operations in more than 100 cities.</p>
-			<button class="button-85" role="button">Book Cab</button>
-		</div>
-	<img src="https://img.freepik.com/free-vector/delivery-concept-illustration_114360-3433.jpg?w=1480&t=st=1695804078~exp=1695804678~hmac=dbb783e4cd933ac807d966acebe13e32126bfc3a49b980d016542f135887d7ca" alt="" height="500" width="600">
-	
-</div>
-<div class="aboutus">
-	<img src="https://img.freepik.com/free-vector/rockers-concept-illustration_114360-12698.jpg?w=1480&t=st=1695829230~exp=1695829830~hmac=081b617a2521dc40faa03150a9fe486e86b218881773fca4f22a115d60df6482" alt="" height="500">
-	<div class="aboutus-txt">
-	<h1>About us</h1>
-	<p>We are not an option, we are a choice
-		We're #1 choice of 10 Million people because we're the solution of India's intra-city commuting problems. With assured safety, we also provide economically priced rides.</p>
-	</div>
-</div>
-<!-- HTML !-->
 
+	<div class="container">
+
+	<%
+    data.forEach((e)=>{
+       
+%>
+
+    <div class="card">
+        <img src="<%=e.image_url%>" alt="Image 1">
+        <div class="details">
+            <div class="title"><%=e.bike_model%></div>
+            <div class="description"><%=e.bike_plate_number%></div>
+			<div class="name"><%=e.name%></div>
+        </div>
+    </div>
+
+	<%
+})
+%>
+	</div>
 
 
 </body>

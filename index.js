@@ -12,8 +12,13 @@ app.use(express.static('public'));
 app.get('/',(req,res)=>{
     res.render('home')
 })
-app.get('/signin',(req,res)=>{
-  res.render('signin')
+app.get('/driver',(req,res)=>{
+  driver.find()
+  .then((result)=>{
+    console.log(result)
+    res.render('driver',{data:result})
+})
+  
 })
 
 // app.post('/search',async(req,res)=>{
